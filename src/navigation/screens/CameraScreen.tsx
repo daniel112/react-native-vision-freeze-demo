@@ -107,7 +107,7 @@ export function CameraScreen() {
         device={device}
         isActive={isActive}
         photo={true}
-        // codeScanner={codeScanner}
+        codeScanner={codeScanner}
       />
       <TouchableOpacity
         style={[styles.closeButton, { top: insets.top + 10 }]}
