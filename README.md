@@ -12,4 +12,4 @@
 
 ## Video
 
-[Watch the video](./video/freeze-demo.mp4)
+[![Watch the video](https://img.youtube.com/vi/Ky_aUzLsK8I/maxresdefault.jpg)](https://www.youtube.com/shorts/Ky_aUzLsK8I)
