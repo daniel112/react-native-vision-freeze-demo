@@ -9,13 +9,15 @@
     "newArchEnabled": true,
     "scheme": "myapp",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "YOUR OWN BUNDLE"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "src/assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "YOUR OWN BUNDLE"
     },
     "web": {
       "favicon": "src/assets/images/favicon.png"
@@ -27,6 +29,13 @@
         {
           "backgroundColor": "#ffffff",
           "image": "src/assets/images/splash-icon.png"
+        }
+      ],
+      [
+        "react-native-vision-camera",
+        {
+          "cameraPermissionText": "$(PRODUCT_NAME) needs access to your Camera.",
+          "microphonePermissionText": "$(PRODUCT_NAME) needs access to your Microphone."
         }
       ]
     ]
