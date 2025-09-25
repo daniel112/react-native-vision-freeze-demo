@@ -23,6 +23,10 @@ export function CameraScreen() {
       "telephoto-camera",
     ],
   });
+  console.log(
+    ">>>device",
+    JSON.stringify(device, (k, v) => (k === "formats" ? [] : v), 2)
+  );
   const [isActive, setIsActive] = useState(true);
   const [permissionRequested, setPermissionRequested] = useState(false);
   const insets = useSafeAreaInsets();
